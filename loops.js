@@ -1,4 +1,4 @@
-function drawTree(tree) {
+function drawTree(h) {
 	for (var i = 0 ; i < h ; i++) {
 		var star = '';
 		for (var j = 0 ; j <= i ; j++) {
@@ -7,5 +7,4 @@ function drawTree(tree) {
 		console.log(star);
     }
 }
-var h = 5;
-drawTree();
+drawTree(5);
